@@ -1,0 +1,24 @@
+// For Better Experience Use Turbo c++
+
+#include<iostream.h>
+#include<conio.h>
+
+int main()
+
+{
+	clrscr();
+	int i=1;
+	unsigned int n;
+	unsigned long long factorial=1;
+	
+	cout<<"Enter a integer: ";
+	cin>>n;
+
+	for(i;i<=n; ++i)
+	{
+		factorial=factorial * i;
+	}
+	cout<<"Factorial is" <<factorial
+	getch();
+	return 0;
+}
